@@ -1,1 +1,1 @@
-# LP2_ML_Project
+# Predicting Customer Churn (Classification Model)
