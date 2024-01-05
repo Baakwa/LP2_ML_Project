@@ -12,6 +12,8 @@
 
 [Modeling & Evaluation of Models](#modeling--evaluation-of-models)
 
+[Result](#result)
+
 [Links](#links)
 
 # Predicting Customer Churn (A Study for Vodafone)
@@ -95,8 +97,16 @@ The collected dataset needed to be put right because it contained null values an
 To guarantee that the same procedures were applied whenever new datasets were made available, the appropriate modifications were added to a pipeline. OneHot Encoder and Label Encoder were used to convert all of the dataset's category columns to numerical values so that the machine-learning model could learn effectively.
 
 # Modeling & Evaluation of Models
+In order to build a robust machine-learning model, five classification models were trained. These models includes DecisionTree,RandomForest, LogisticRegression, GradientBoosting and SupportVectorMachine classifiers.
 
+To improve performance of the model, there was a feature selection and hyperparameter tuning for the best performing model.
 
+The performance of the model was assessed using the f1-score, presicision and accuracy metric as well as the AUC-ROC curve.
+
+# Result 
+LogisticRegression classifier was the best performing model and that was used in the prediction of the churn rate/ number of the test dataset.
+
+Out of a total of 2000 customers, the model was able to predict that 436 customers churned while 1564 cutomers did not churn.
 
 # Links
 Find below links to visualization of analysis using Tableau and also an article published on medium
