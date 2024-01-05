@@ -108,6 +108,9 @@ LogisticRegression classifier was the best performing model and that was used in
 
 Out of a total of 2000 customers, the model was able to predict that 436 customers churned while 1564 cutomers did not churn.
 
+# Recommendation
+From the insights above, vodafone should engage these 436 customers who churned to increase their revenue for the upcoming years. 
+
 # Links
 Find below links to visualization of analysis using Tableau and also an article published on medium
 
