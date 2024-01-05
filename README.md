@@ -14,6 +14,8 @@
 
 [Result](#result)
 
+[Recommendation](#recommendation)
+
 [Links](#links)
 
 # Predicting Customer Churn (A Study for Vodafone)
