@@ -106,12 +106,16 @@ To improve performance of the model, there was a feature selection and hyperpara
 The performance of the model was assessed using the f1-score, presicision and accuracy metric as well as the AUC-ROC curve.
 
 # Result 
-LogisticRegression classifier was the best performing model and that was used in the prediction of the churn rate/ number of the test dataset.
+LogisticRegression classifier was one of the best performing model and that was used in the prediction of the churn rate/ number of the test dataset.
 
 Out of a total of 2000 customers, the model was able to predict that 436 customers churned while 1564 cutomers did not churn.
 
+The number of customers who chunred as predicted by the gradient boosting model was 409 while that of customers who did not churn is 1591. 
+
+This indicates that the gradient boosting model will perform better than the linear regression model for prediction.
+
 # Recommendation
-From the insights above, vodafone should engage these 436 customers who churned to increase their revenue for the upcoming years. 
+From the insights above, vodafone should engage customers who churned to increase their revenue for the upcoming years. 
 
 # Links
 Find below links to visualization of analysis using Tableau and also an article published on medium
