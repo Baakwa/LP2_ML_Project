@@ -112,8 +112,6 @@ Out of a total of 2000 customers, the model was able to predict that 436 custome
 
 The number of customers who chunred as predicted by the gradient boosting model was 409 while that of customers who did not churn is 1591. 
 
-This indicates that the gradient boosting model will perform better than the linear regression model for prediction.
-
 # Recommendation
 From the insights above, vodafone should engage customers who churned to increase their revenue for the upcoming years. 
 
